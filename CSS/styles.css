@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: radial-gradient(circle at -0.2% 99.7%, rgb(190, 53, 145) 0%, rgb(239, 69, 115) 100.2%);
-    color: white;
+    color: rgb(35, 34, 34);
     padding: 10px 0;
     text-align: center;
 }
