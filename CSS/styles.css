@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: radial-gradient(275px at -14% 125%, rgb(255, 255, 255) 0%, rgb(218, 134, 182) 100.7%);
 }
 
 header {
-    background-color: #333;
+    background-color: radial-gradient(circle at -0.2% 99.7%, rgb(190, 53, 145) 0%, rgb(239, 69, 115) 100.2%);
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -28,6 +28,7 @@ nav ul li a {
 }
 .project a {text-decoration: none;
     color: hotpink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -41,9 +42,8 @@ section {
 
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
+    padding: 10px 0;
+    color: hotpink;
     position: fixed;
     width: 100%;
     bottom: 0;
