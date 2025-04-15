@@ -26,6 +26,10 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+.project a {text-decoration: none;
+    color: hotpink;
+
+}
 
 section {
     padding: 20px;
