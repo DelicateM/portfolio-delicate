@@ -35,6 +35,8 @@ nav ul li a {
     justify-content: center;
     display: flex;
     align-items: center;
+    flex-direction: column;
+    height: 100vh;
 
 }
 .project a {text-decoration: none;
