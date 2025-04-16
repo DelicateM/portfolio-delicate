@@ -6,3 +6,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+(function(){
+    emailjs.init("y6-eFljQPR3bWKVzf");});
+
+document.getElementById("contact-form").addEventListener("submit",function(e){
+    e.preventDefault();
+    emailjs.sendForm("service_kpspd1m","template_ynfn46h",this)
+    .then(()=> alert("Message sent!"),(err)=> alert ("Error: "+ JSON.stringify(err)));
+
+});
