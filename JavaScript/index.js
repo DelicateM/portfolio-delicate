@@ -7,7 +7,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 (function(){
-    emailjs.init("Pk9qp4JBvgr3jIea7");});
+    emailjs.init("public_Pk9qp4JBvgr3jIea7");});
 
 document.getElementById("contact-form").addEventListener("submit",function(e){
     e.preventDefault();
