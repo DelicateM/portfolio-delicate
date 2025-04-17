@@ -79,13 +79,14 @@ section {
     text-decoration: none;
     color: black;
 }
-.btn {
+.btn {background: transparent;
     background-color:hotpink;
     color: white;
     padding: 12px 24px;
     border-radius: 8px;
     text-decoration: none;
     font-size: 18px;
+    margin-right: 10px;
 }
 
 .btn:hover {
