@@ -79,6 +79,9 @@ section {
     text-decoration: none;
     color: hotpink;
 }
+#contact a:hover{
+    transform: scale(1.1);
+}
 footer {
     text-align: center;
     padding: 10px 0;
