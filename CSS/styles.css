@@ -57,8 +57,10 @@ img{
     height: 200px;
     text-align: center;
 }
-img:hover{
+img:hover,
+image :active{
     transform: scale(1.5);
+    transition: 0.3s ease;
 }
 
 section {
@@ -78,7 +80,54 @@ section {
 .social-icon:hover {
     transform: scale(1.1);
 }
+.contact-form{
+    max-width:600px;
+    margin:20px auto;
+    padding:20px;
+    background-color:white;
+    border-radius:20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'poppins',sans-serif;
+    display:flex;
+    flex-direction: column;
+    gap: 12px;
 
+}
+.contact-form label{
+    font-weight: 600px;
+    color: #444;
+}
+.contact-form input,
+.contact-form textarea{padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+
+}
+.contact-form input :focus,
+.contact-form textarea :focus{
+    border-color: #8e44ad;
+    outline: none;
+}
+.contact-form textarea{
+    min-height: 120px;
+    resize: vertical;
+}
+.contact-form button{
+    background: #8e44ad;
+    color: white;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.contact-form button :hover{
+    background-color: #732d91;
+}
 .contact-link{
     text-decoration: none;
     color:#333;
