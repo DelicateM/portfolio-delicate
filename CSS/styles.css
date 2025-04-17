@@ -77,7 +77,6 @@ section {
 }
 #contact a {
     text-decoration: none;
-    color: hotpink;
 }
 #contact a:hover{
     transform: scale(1.1);
