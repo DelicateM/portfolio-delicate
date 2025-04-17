@@ -57,6 +57,9 @@ img{
     height: 200px;
     text-align: center;
 }
+img:hover{
+    transform: scale(0.8);
+}
 
 section {
     padding: 20px;
