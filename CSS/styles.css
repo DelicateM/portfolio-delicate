@@ -58,7 +58,7 @@ img{
     text-align: center;
 }
 img:hover{
-    transform: scale(0.8);
+    transform: scale(1.5);
 }
 
 section {
