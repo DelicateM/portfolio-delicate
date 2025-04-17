@@ -93,24 +93,36 @@ section {
     gap: 12px;
 
 }
+.contact-form .form-group {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form .form-group label {
+    margin-bottom: 6px;
+    font-weight:600;
+    color: #444;
+
+}
+.form-group input,
+.form-group textarea
 .contact-form label{
-    font-weight: 600px;
+    font-weight: 600;
     color: #444;
 }
-.contact-form input,
-.contact-form textarea{padding: 8px 16px;
-    border: 1px solid #ddd;
-    border-radius: 12px;
+.contact-form .form-group input,
+.contact-form .form-group textarea{padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
     font-size: 16px;
     transition: border-color 0.3s ease;
 
 }
-.contact-form input :focus,
-.contact-form textarea :focus{
+.contact-form .form-group input :focus,
+.contact-form .form-group textarea :focus{
     border-color: #8e44ad;
     outline: none;
 }
-.contact-form textarea{
+.contact-form .form-group textarea{
     min-height: 120px;
     resize: vertical;
 }
