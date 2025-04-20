@@ -84,7 +84,6 @@ section {
     height: 30px;
     margin: 0 10px;
     transition: transform 0.3s;
-    .logo-icons {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -93,7 +92,7 @@ section {
             margin-top: 20px;
         }
 
-}
+
 .social-icon-lang:hover {
     transform: scale(1.1);}
 
