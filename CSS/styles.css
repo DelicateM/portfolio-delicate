@@ -80,6 +80,15 @@ section {
 .social-icon:hover {
     transform: scale(1.1);
 }
+.social-icon-lang{width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+
+}
+.social-icon-lang:hover {
+    transform: scale(1.1);}
+
 .contact-form{
     max-width:600px;
     margin:20px auto;
