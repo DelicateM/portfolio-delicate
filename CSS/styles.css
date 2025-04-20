@@ -85,7 +85,6 @@ section {
     margin: 0 10px;
     transition: transform 0.3s;
     display: flex;
-    align-items: center;
     justify-content: center;
 
 }
