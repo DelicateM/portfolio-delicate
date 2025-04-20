@@ -90,9 +90,6 @@ section {
 flex-wrap: wrap;}
 
 
-.social-icon-lang:hover {
-    transform: scale(1.1);}
-
 .contact-form{
     max-width:600px;
     margin:20px auto;
