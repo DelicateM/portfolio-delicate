@@ -85,6 +85,7 @@ section {
     margin: 0 10px;
     transition: transform 0.3s;
     justify-content: center;
+    text-align: center;
 
 }
 .social-icon-lang:hover {
