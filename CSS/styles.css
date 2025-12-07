@@ -85,9 +85,18 @@ section {
         height: 7px;
         margin: 0 10px;
 }
-.social-icon-lang{
-    text-align: center;
-flex-wrap: wrap;}
+.social-icon-lang {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+}
+.social-icon-lang .logo {
+    width: 45px;
+        height: 45px;
+        object-fit: contain;
+}
 
 
 .contact-form{
